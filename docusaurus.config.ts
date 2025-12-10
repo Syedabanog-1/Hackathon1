@@ -53,7 +53,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Syedabanog-1/Hackathon1/tree/main/',
         },
         blog: false,
         theme: {
