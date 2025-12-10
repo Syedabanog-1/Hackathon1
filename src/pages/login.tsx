@@ -96,7 +96,7 @@ const LoginPage: React.FC = () => {
             <h1 style={{
               fontSize: '32px',
               fontWeight: '800',
-              background: 'linear-gradient(135deg, #dc2626 0%, #f87171 100%)',
+              background: 'linear-gradient(135deg, #065f46 0%, #047857 100%)',
               WebkitBackgroundClip: 'text',
               WebkitTextFillColor: 'transparent',
               marginBottom: '12px',
@@ -105,9 +105,9 @@ const LoginPage: React.FC = () => {
               Welcome Back! 🙂
             </h1>
             <p style={{
-              color: '#94a3b8',
+              color: '#065f46',
               fontSize: '15px',
-              fontWeight: '400'
+              fontWeight: '600'
             }}>
               Sign in to continue your learning journey
             </p>
@@ -219,8 +219,8 @@ const LoginPage: React.FC = () => {
                 width: '100%',
                 padding: '16px',
                 background: isLoading
-                  ? 'linear-gradient(135deg, #7f1d1d 0%, #991b1b 100%)'
-                  : 'linear-gradient(135deg, #dc2626 0%, #b91c1c 50%, #991b1b 100%)',
+                  ? 'linear-gradient(135deg, #db2777 0%, #f472b6 100%)'
+                  : 'linear-gradient(135deg, #ec4899 0%, #f472b6 50%, #fbcfe8 100%)',
                 border: 'none',
                 borderRadius: '12px',
                 color: '#ffffff',
@@ -230,7 +230,7 @@ const LoginPage: React.FC = () => {
                 transition: 'all 0.3s ease',
                 boxShadow: isLoading
                   ? 'none'
-                  : '0 10px 30px rgba(220, 38, 38, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.1)',
+                  : '0 10px 30px rgba(236, 72, 153, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.1)',
                 position: 'relative',
                 overflow: 'hidden',
                 letterSpacing: '0.5px',
@@ -239,12 +239,12 @@ const LoginPage: React.FC = () => {
               onMouseEnter={(e) => {
                 if (!isLoading) {
                   e.currentTarget.style.transform = 'translateY(-2px)';
-                  e.currentTarget.style.boxShadow = '0 15px 40px rgba(220, 38, 38, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.1)';
+                  e.currentTarget.style.boxShadow = '0 15px 40px rgba(236, 72, 153, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.1)';
                 }
               }}
               onMouseLeave={(e) => {
                 e.currentTarget.style.transform = 'translateY(0)';
-                e.currentTarget.style.boxShadow = '0 10px 30px rgba(220, 38, 38, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.1)';
+                e.currentTarget.style.boxShadow = '0 10px 30px rgba(236, 72, 153, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.1)';
               }}
             >
               {isLoading ? (
