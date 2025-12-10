@@ -14,6 +14,7 @@ app = FastAPI(
 
 # CORS configuration - Allow specific origins (no wildcard with credentials)
 allowed_origins = [
+    "https://hackathon1-wheat.vercel.app",  # Current Vercel deployment
     "https://full-project-kappa.vercel.app",
     "https://full-project.vercel.app",
     "http://localhost:3000",
