@@ -6,7 +6,7 @@
         window.BACKEND_API_URL = 'http://localhost:8000';
     } else {
         // For production (Vercel) - use Railway backend
-        window.BACKEND_API_URL = 'https://full-project-production.up.railway.app';
+        window.BACKEND_API_URL = 'https://web-production-7311.up.railway.app';
     }
 
     console.log('Backend API URL configured:', window.BACKEND_API_URL);

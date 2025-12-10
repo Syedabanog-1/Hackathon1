@@ -43,7 +43,7 @@ const config: Config = {
 
   customFields: {
     geminiApiKey: process.env.GEMINI_API_KEY,
-    backendApiUrl: process.env.BACKEND_API_URL || 'http://localhost:8000',
+    backendApiUrl: process.env.NEXT_PUBLIC_BACKEND_URL || process.env.BACKEND_API_URL || 'https://web-production-7311.up.railway.app',
   },
 
   presets: [
